@@ -1,1 +1,9 @@
 
+Branch-build
+  stage: build
+  image: alpine:latest
+  script:
+  - ls -l
+  
+stages:
+  build
