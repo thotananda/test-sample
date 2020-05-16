@@ -1,9 +1,9 @@
 
-Branch-build
+gradle-build
+  image: gradle:latest
   stage: build
-  image: alpine:latest
   script:
   - ls -l
   
 stages:
-  build
+  - build
